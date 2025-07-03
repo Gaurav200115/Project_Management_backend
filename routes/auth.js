@@ -6,7 +6,7 @@ const router = express.Router()
 
 // Public routes
 router.post("/register", register)
-router.post("/login", login)
+router.get("/login", login)
 
 // Protected routes
 router.get("/me", auth, getMe)
