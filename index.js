@@ -4,9 +4,9 @@ const dotenv = require("dotenv")
 const connectDB = require("./config/database")
 
 // Import routes
-const authRoutes = require("./routes/auth.js")
-const projectRoutes = require("./routes/projects.js")
-const scriptRoutes = require("./routes/scripts.js")
+const authRoutes = require("./routes/auth")
+const projectRoutes = require("./routes/projects")
+const scriptRoutes = require("./routes/scripts")
 
 // Load environment variables
 dotenv.config()
